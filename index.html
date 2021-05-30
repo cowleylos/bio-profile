@@ -3,39 +3,39 @@
 
  <meta charset="utf-8" />
  <meta
- name="bio-profile"
- content="width=device-width, initial-scale=1, shrink-to-fit=yes"
- />
-<title>
-Rosie Cowley
-</title>
+ name="bio-profile" content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+ >
+
      <h1>
          SHE-CODER Rosie Cowley
-     </h1>
+         <h1 style="color: darkslateblue;">
+         </h1>
+         <nav>
+          <a href="index.html">Home</a>
+
+          <a href="contact.html">Contact</a>
+
+          <a href="about-me.html">About-Me</a>
+
+      </nav>
       
-<body>
+<body style="background-color: black;"
+>
     
     <img src="images/profile pic.png" class="margin-auto" src="profile pic.jpg" alt="centered image" />
+    <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+  
                       
        <link rel="stylesheet" href="styles.css" />
 
-        <div class="blue">
-            <button class="blue" onclick="openHome">Home</button>
-            <button class="blue" onclick="openContact">Contact</button>
-            <button class="blue" onclick="openAboutMe">About Me</button>
-          </div>
-            
-           <div>
-                <form action="Contact" method="POST">
-                <form action="About Me" method="About Me">  
-           </div>
-         
-                               </form>
-           
-
-   
-
-<head>
+       
+<body>
 <title>https://www.facebook.com/shecodesaustralia</title>
 
 
@@ -50,8 +50,19 @@ fjs.parentNode.insertBefore(js, fjs);
 
 <div class="fb-share-button" 
 data-href="https://www.facebook.com/shecodesaustralia" 
+
 data-layout="button_count">
 </div>
+
+<form id="search-form" action="http://www.youtube.com/results" method="get" name="searchForm">
+  <input id="search-term" name="search_query" type="text" onkeyup="goog.i18n.bidi.setDirAttribute(event,this)" value="" maxlength="128" />
+  <select class="search-type" name="search_type">
+  <option value="">Videos</option>
+  <option value="search_users" >Channels</option>
+  </select>
+  <input id="search-button" type="submit" value="Search" />
+  </form>
+
 </head>
 </body>
 </html>
